@@ -11,4 +11,12 @@ fn main() {
   println!("Unsigned integer: {}", val_unsigned32);
 
   // Floats
+  let x = 2.0;
+  let y: f32 = 3.0;
+
+  println!("x : f64 is {}, y : f32 is {}", x, y);
+
+  // Numeric operators
+  let sum = 3f64 / 1.5;
+  println!("Sum of 3 / 1.5: {}", sum);
 }
