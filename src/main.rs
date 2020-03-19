@@ -1,5 +1,5 @@
 fn main() {
-  // 
+  // Learning a bit of Rust
   let guess: u32 = "42".parse().expect("Not a number!");
   println!("This guess is: {}", guess);
 
@@ -9,4 +9,6 @@ fn main() {
 
   println!("Signed integer: {}", val_signed32);
   println!("Unsigned integer: {}", val_unsigned32);
+
+  // Floats
 }
